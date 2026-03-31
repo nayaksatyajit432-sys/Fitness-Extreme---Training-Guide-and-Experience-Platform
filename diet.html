@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nutrition Planner</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div id="navbar-container"></div>
+
+<div class="container py-5 text-center">
+
+<h1 class="mb-5 glow-text">Smart Nutrition Planner</h1>
+
+<!-- GOAL CARD -->
+<div class="diet-card mx-auto p-4">
+
+<h4>Select Your Goal</h4>
+
+<select id="goalSelect" class="form-control mt-3">
+    <option value="">-- Choose Goal --</option>
+    <option value="loss">🔥 Fat Loss</option>
+    <option value="gain">💪 Muscle Gain</option>
+    <option value="maintain">⚖ Maintain</option>
+</select>
+
+<button id="generateDiet" class="btn btn-warning mt-4 w-100">
+Generate Smart Plan
+</button>
+
+</div>
+
+<!-- RESULT -->
+<div id="dietResult" class="mt-5" style="display:none;">
+
+<h3 id="dietTitle" class="mb-3"></h3>
+
+<!-- MACROS -->
+<div class="macro-box mb-4">
+<span id="caloriesText"></span>
+<span id="proteinText"></span>
+<span id="carbsText"></span>
+<span id="fatText"></span>
+</div>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="meal-card">
+<h5>🍳 Breakfast</h5>
+<p id="breakfast"></p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="meal-card">
+<h5>🍛 Lunch</h5>
+<p id="lunch"></p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="meal-card">
+<h5>🌙 Dinner</h5>
+<p id="dinner"></p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
