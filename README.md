@@ -130,6 +130,9 @@ Fitness-Extreme/
 
 <img width="1880" height="1022" alt="image" src="https://github.com/user-attachments/assets/ec07cf63-070f-4ca7-8b77-1f541558d26a" />
 
+<img width="1898" height="1022" alt="image" src="https://github.com/user-attachments/assets/2634bfdb-dfd7-4187-ab64-b94c8c841316" />
+
+
 
 
 ## 🚀 Getting Started
