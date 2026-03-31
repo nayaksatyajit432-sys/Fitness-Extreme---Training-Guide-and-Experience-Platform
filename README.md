@@ -168,7 +168,7 @@ Open `index.html` in browser
 ## 👨‍💻 Author
 
 **Satyajit Nayak**
-🚀 Passionate Developer | Fitness Tech Enthusiast
+**Priyabrata Behera**
 
 ---
 
